@@ -1,0 +1,68 @@
+PS C:\Users\ASUS\Desktop\Seleccion Prueba> ts-node app.ts
+Hola, soy Lionel Messi y juego como delantero
+Hola, soy Lionel Scaloni y tengo 6 años de experiencia como entrenador
+Hola, soy juan Mamani y soy el masajista de la seleccion
+Futbolista {
+  nombre: 'Lionel',
+  apellido: 'Messi',
+  numeroPasaporte: '858689',
+  fechaNacimiento: '12/06/1995',
+  posicion: 'delantero'
+}
+Futbolista {
+  nombre: 'Julian',
+  apellido: 'Alvarez',
+  numeroPasaporte: '698954',
+  fechaNacimiento: '10/3/2001',
+  posicion: 'delantero'
+}
+Entrenador {
+  nombre: 'Lionel',
+  apellido: 'Scaloni',
+  numeroPasaporte: '235647',
+  fechaNacimiento: '8/02/1980',
+  experiencia: 6
+}
+CuerpoMedico {
+  masajista: Masajista {
+    nombre: 'juan',
+    apellido: 'Mamani',
+    numeroPasaporte: '695425',
+    fechaNacimiento: '01/12/78',
+    especialidad: 'masajista'
+  },
+  numeroMatricula: 456323
+}
+Selección {
+  pais: 'Argentina',
+  futbolistas: [
+    Futbolista {
+      nombre: 'Lionel',
+      apellido: 'Messi',
+      numeroPasaporte: '858689',
+      fechaNacimiento: '12/06/1995',
+      posicion: 'delantero'
+    },
+    Futbolista {
+      nombre: 'Julian',
+      apellido: 'Alvarez',
+      numeroPasaporte: '698954',
+      fechaNacimiento: '10/3/2001',
+      posicion: 'delantero'
+    }
+  ],
+  entrenador: Entrenador {
+    nombre: 'Lionel',
+    apellido: 'Scaloni',
+    numeroPasaporte: '235647',
+    fechaNacimiento: '8/02/1980',
+    experiencia: 6
+  },
+  masajista: Masajista {
+    nombre: 'juan',
+    apellido: 'Mamani',
+    numeroPasaporte: '695425',
+    fechaNacimiento: '01/12/78',
+    especialidad: 'masajista'
+  }
+}
